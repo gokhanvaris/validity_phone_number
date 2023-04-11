@@ -1,7 +1,7 @@
 name: validity_phone_number
-description: A new Flutter package project.
+description: A widget where you can enter your phone number with dial code and check it by country.
 version: 0.0.1
-homepage:
+homepage: https://github.com/gokhanvaris/validity_phone_number
 
 environment:
   sdk: '>=2.19.5 <3.0.0'
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  phone_numbers_parser: ^4.2.1
 
 dev_dependencies:
   flutter_test:
@@ -23,9 +24,12 @@ dev_dependencies:
 flutter:
 
   # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/countries
+    - assets/flags
+    - assets/names
+       
+
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
