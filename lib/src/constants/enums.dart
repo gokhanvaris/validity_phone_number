@@ -1,0 +1,1 @@
+enum CountryMode { bottomSheet, dialog }
